@@ -1,0 +1,38 @@
+@mixin icon_family($family, $path) {
+
+    @font-face {
+        font-family: $family;
+        src:font-url($path + $family + '.eot?-9ll32q');
+        src:font-url($path + $family + '.eot?#iefix-9ll32q') format('embedded-opentype'), font-url($path + $family + '.woff?-9ll32q') format('woff'),   font-url($path + $family + '.ttf?-9ll32q') format('truetype'),    font-url($path + $family + '.svg?-9ll32q#meetsimply') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
+
+    .icon:before,
+    [class^="icon-"]:before,
+    [class*=" icon-"]:before,
+    .icon:after,
+    [class^="icon-"]:after,
+    [class*=" icon-"]:after {
+        font-family: $family;
+        speak: none;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+
+        /* Better Font Rendering =========== */
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+}
+
+
+
+
+
+
+
+
