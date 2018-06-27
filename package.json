@@ -1,0 +1,26 @@
+{
+  "name": "g4.font.icons",
+  "version": "0.0.5",
+  "description": "Font icons",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/g4code/g4.font.icons.git"
+  },
+  "keywords": [
+    "g4.font.icons"
+  ],
+  "author": "G4 Code <office@g4code.com>",
+  "maintainers": [
+    "Drasko Gomboc <drasko.gomboc@gmail.com>",
+    "Zeljko Simic <zeljkosbgd@gmail.com>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/g4code/g4.font.icons/issues"
+  },
+  "homepage": "https://github.com/g4code/g4.font.icons#readme"
+}
